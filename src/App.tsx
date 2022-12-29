@@ -1,9 +1,9 @@
 import "./App.css";
-
+import { DetailCards } from "./components";
 function App() {
   return (
     <div className="App">
-      <h1>Ejaz Hussain</h1>
+      <DetailCards />
     </div>
   );
 }
