@@ -1,7 +1,33 @@
 .App {
   padding: 4rem;
+  margin: auto;
 }
 
 .flex-box {
   display: flex;
+}
+
+.btn {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 17px;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+.border-square {
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid gray;
+}
+
+.no-border {
+  border: none;
+  outline: none;
 }

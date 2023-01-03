@@ -1,18 +1,39 @@
 import "./App.css";
-import { DetailCards } from "./components";
+import {
+  About,
+  ExtraDetails,
+  HappyMoment,
+  Interests,
+  Languages,
+  Learn,
+  Profile,
+  WorkStyle,
+} from "./components";
+
 function App() {
   return (
     <div className="App">
-      <DetailCards
-        editCard={function (a: string): void {
-          throw new Error("Function not implemented.");
-        }}
-      >
-        <div>
-          <h1>Ejaz hussain bala</h1>
-          <p>Ejaz hussain baltistani</p>
+      <div>
+        <Profile />
+      </div>
+      <div className="flex-vertical">
+        <div className="flex-box">
+          <About />
+          <ExtraDetails />
         </div>
-      </DetailCards>
+        <div className="flex-box">
+          <Interests />
+          <Languages />
+        </div>
+        <div className="flex-box">
+          <HappyMoment />
+          <Learn />
+        </div>
+        <div className="flex-box">
+          <About />
+          <WorkStyle />
+        </div>
+      </div>
     </div>
   );
 }

@@ -5,18 +5,25 @@ import "./DetailCards.css";
 
 interface DetailCardsProps {
   children: ReactElement;
-  editCard: (a: string) => void;
+  editCardModalId: string;
 }
-export function DetailCards({ children, editCard }: DetailCardsProps) {
+export function DetailCards({ children, editCardModalId }: DetailCardsProps) {
   return (
-    <div>
+    <div className="card">
       <div className="card px-4 py-3" style={{ width: "25rem" }}>
         <div className="flex-box">
           <div className="card-body">
             <p className="card-text">{children}</p>
           </div>
-          <div className="dot">
-            <IconEditCard />
+          <div>
+            <button
+              type="button"
+              className="edit-button"
+              data-bs-toggle="modal"
+              data-bs-target={"#" + editCardModalId}
+            >
+              <IconEditCard />
+            </button>
           </div>
         </div>
       </div>
