@@ -13,7 +13,7 @@ export function About() {
     setAbout(value);
   };
   return (
-    <div style={{ marginLeft: "2rem" }}>
+    <div className="About m-1 wr-40">
       <TempModal
         modalId={"about-modal-id"}
         modalLabel={"about-modal-label"}

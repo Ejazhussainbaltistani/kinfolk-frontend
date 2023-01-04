@@ -3,7 +3,7 @@ import { TempModal } from "../../TempModal/TempModal";
 
 export function HappyMoment() {
   return (
-    <div style={{ marginLeft: "2rem" }}>
+    <div className="happy-moment m-1 wr-30">
       <TempModal
         modalId={"happy-moment-modal-id"}
         modalLabel={"happy-moment-modal-label"}

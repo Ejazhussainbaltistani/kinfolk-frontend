@@ -3,7 +3,7 @@ import { TempModal } from "../../TempModal/TempModal";
 
 export function Info() {
   return (
-    <div style={{ marginLeft: "2rem" }}>
+    <div className="info wr-40 m-1">
       <TempModal
         modalId={"Info-modal-id"}
         modalLabel={"Info-modal-label"}

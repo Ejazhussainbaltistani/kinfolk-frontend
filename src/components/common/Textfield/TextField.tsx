@@ -1,9 +1,7 @@
-import { SetStateAction } from "react";
-
 interface TextFieldProps {
   name: string;
   placeholder: string;
-  onChange: (e: SetStateAction<string>) => void;
+  onChange: (e: string) => void;
   value: string;
   label?: string;
   rows?: number;

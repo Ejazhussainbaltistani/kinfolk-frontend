@@ -15,8 +15,19 @@ export function Interests() {
       }
     }
   };
+
+  const handleKeyDown = (e: any) => {
+    if (e.key === "Enter") {
+      const val = e.currentTarget.value;
+      if (val.length > 0) {
+        setData([...data, val]);
+        e.currentTarget.value = "";
+      }
+    }
+  };
+
   return (
-    <div style={{ marginLeft: "2rem" }}>
+    <div className="Interests wr-40 m-1">
       <TempModal
         modalId={"interests-modal-id"}
         modalLabel={"interests-modal-label"}
@@ -43,6 +54,7 @@ export function Interests() {
               onChange={(e) => {
                 changeValue(e);
               }}
+              onKeyDown={handleKeyDown}
             ></input>
           </div>
         </div>

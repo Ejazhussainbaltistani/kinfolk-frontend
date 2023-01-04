@@ -10,7 +10,7 @@ interface DetailCardsProps {
 export function DetailCards({ children, editCardModalId }: DetailCardsProps) {
   return (
     <div className="card">
-      <div className="card px-4 py-3" style={{ width: "25rem" }}>
+      <div className="card px-4 py-3">
         <div className="flex-box">
           <div className="card-body">
             <p className="card-text">{children}</p>

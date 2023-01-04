@@ -1,3 +1,4 @@
+export * from "./common/RangeInput/RangeInput";
 export * from "./common/Textfield/TextField";
 export * from "./DetailCards/DetailCards";
 export * from "./Profile/About/About";

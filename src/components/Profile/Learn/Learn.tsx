@@ -5,7 +5,7 @@ const data = ["ejaz", "Lohari", "Punjab", "new pagal"];
 
 export function Learn() {
   return (
-    <div style={{ marginLeft: "2rem" }}>
+    <div className="learn wr-30 m-1">
       <TempModal
         modalId={"learn-modal-id"}
         modalLabel={"learn-modal-label"}

@@ -1,0 +1,41 @@
+.input-range::-webkit-slider-thumb {
+  color: pink;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.input-range::-webkit-slider-runnable-track {
+  height: 1rem;
+  background-color: #edeade;
+}
+
+#circles {
+  display: flex;
+  justify-content: space-between;
+}
+
+#circles span {
+  position: relative;
+  display: flex;
+  width: 1px;
+  background: #d3d3d3;
+}
+
+.input-range {
+  margin: 0;
+  padding: 0;
+}
+
+#circles {
+  margin-right: 1.4rem;
+}
+
+.dot {
+  position: absolute;
+  top: -1.4rem;
+  left: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 25px;
+  background-color: white;
+}

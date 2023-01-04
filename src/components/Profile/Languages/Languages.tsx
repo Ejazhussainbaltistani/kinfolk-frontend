@@ -8,7 +8,7 @@ const data = [
 
 export function Languages() {
   return (
-    <div style={{ marginLeft: "2rem" }}>
+    <div className="languages m-1 wr-20">
       <TempModal
         modalId={"languages-modal-id"}
         modalLabel={"languages-modal-label"}

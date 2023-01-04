@@ -16,9 +16,9 @@
 .flex-vertical {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: auto;
   align-items: center;
+  width: 60%;
+  margin: auto;
 }
 
 .border-square {
@@ -30,4 +30,16 @@
 .no-border {
   border: none;
   outline: none;
+}
+
+.wr-40 {
+  width: 40rem;
+}
+
+.wr-20 {
+  width: 20rem;
+}
+
+.wr-30 {
+  width: 30rem;
 }

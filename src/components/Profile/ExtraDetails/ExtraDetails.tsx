@@ -1,10 +1,17 @@
+import { useState } from "react";
 import { DetailCards } from "../../DetailCards/DetailCards";
 import { TempModal } from "../../TempModal/TempModal";
 import { ReactComponent as IconEditCard } from "./../../../assets/icons/icon-edit-card.svg";
 
 export function ExtraDetails() {
+  const [details, setDetails] = useState([
+    { icon: <IconEditCard />, title: "ejaz" },
+    { icon: <IconEditCard />, title: "ejaz" },
+    { icon: <IconEditCard />, title: "ejaz" },
+    { icon: <IconEditCard />, title: "ejaz" },
+  ]);
   return (
-    <div style={{ marginLeft: "2rem" }}>
+    <div className="extra-details m-1 wr-20">
       <TempModal
         modalId={"extra-detail-modal-id"}
         modalLabel={"extra-detail-modal-label"}
@@ -17,30 +24,14 @@ export function ExtraDetails() {
       <DetailCards editCardModalId={"extra-detail-modal-id"}>
         <div>
           <h1>Extra Details</h1>
-          <div className="flex-box">
-            <div>
-              <IconEditCard />
-            </div>
-            <div> jklsd sdaf</div>
-          </div>
-          <div className="flex-box">
-            <div>
-              <IconEditCard />
-            </div>
-            <div> jklsd sdaf</div>
-          </div>
-          <div className="flex-box">
-            <div>
-              <IconEditCard />
-            </div>
-            <div> jklsd sdaf</div>
-          </div>
-          <div className="flex-box">
-            <div>
-              <IconEditCard />
-            </div>
-            <div> jklsd sdaf</div>
-          </div>
+          {details.map((detail) => {
+            return (
+              <div className="flex-box">
+                <div className="px-2 py-1">{detail.icon}</div>
+                <div className="px-2 py-1"> {detail.title}</div>
+              </div>
+            );
+          })}
         </div>
       </DetailCards>
     </div>
