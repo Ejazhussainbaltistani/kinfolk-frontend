@@ -1,5 +1,5 @@
-import { DetailCards } from "../../DetailCards/DetailCards";
-import { TempModal } from "../../TempModal/TempModal";
+import { DetailCards } from "../../common/DetailCards/DetailCards";
+import { TempModal } from "../../common/TempModal/TempModal";
 
 const data = ["ejaz", "Lohari", "Punjab", "new pagal"];
 

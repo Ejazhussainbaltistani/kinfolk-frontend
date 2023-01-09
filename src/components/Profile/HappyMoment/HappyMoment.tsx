@@ -1,9 +1,9 @@
-import { DetailCards } from "../../DetailCards/DetailCards";
-import { TempModal } from "../../TempModal/TempModal";
+import { DetailCards } from "../../common/DetailCards/DetailCards";
+import { TempModal } from "../../common/TempModal/TempModal";
 
 export function HappyMoment() {
   return (
-    <div className="happy-moment m-1 wr-30">
+    <div className="happy-moment m-1 wr-40">
       <TempModal
         modalId={"happy-moment-modal-id"}
         modalLabel={"happy-moment-modal-label"}

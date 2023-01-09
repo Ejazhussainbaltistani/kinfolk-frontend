@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+import "./TempModal.css"
 
 interface TempModalProps {
   children: ReactElement;
@@ -13,7 +14,7 @@ export function TempModal({
   modalLabel,
 }: TempModalProps) {
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className="temp-modal text-left">
       <div
         className="modal fade"
         id={modalId}

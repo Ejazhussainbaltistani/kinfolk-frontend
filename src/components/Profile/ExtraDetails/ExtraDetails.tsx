@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { DetailCards } from "../../DetailCards/DetailCards";
-import { TempModal } from "../../TempModal/TempModal";
+import { DetailCards } from "../../common/DetailCards/DetailCards";
+import { TempModal } from "../../common/TempModal/TempModal";
 import { ReactComponent as IconEditCard } from "./../../../assets/icons/icon-edit-card.svg";
 
 export function ExtraDetails() {

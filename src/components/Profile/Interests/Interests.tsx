@@ -1,6 +1,6 @@
 import { ChangeEvent, useState } from "react";
-import { DetailCards } from "../../DetailCards/DetailCards";
-import { TempModal } from "../../TempModal/TempModal";
+import { DetailCards } from "../../common/DetailCards/DetailCards";
+import { TempModal } from "../../common/TempModal/TempModal";
 
 export function Interests() {
   const [data, setData] = useState(["ejaz", "jhhjjk", "Punjab", "new pagal"]);
@@ -27,7 +27,7 @@ export function Interests() {
   };
 
   return (
-    <div className="Interests wr-40 m-1">
+    <div className="Interests wr-30 m-1">
       <TempModal
         modalId={"interests-modal-id"}
         modalLabel={"interests-modal-label"}

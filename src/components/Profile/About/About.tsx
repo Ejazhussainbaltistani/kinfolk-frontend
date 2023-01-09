@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { DetailCards } from "../../common/DetailCards/DetailCards";
+import { TempModal } from "../../common/TempModal/TempModal";
 import TextField from "../../common/Textfield/TextField";
-import { DetailCards } from "../../DetailCards/DetailCards";
-import { TempModal } from "../../TempModal/TempModal";
 
 export function About() {
   const [about, setAbout] = useState(

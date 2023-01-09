@@ -1,5 +1,5 @@
 .App {
-  padding: 4rem;
+  padding: 0;
   margin: auto;
 }
 
@@ -42,4 +42,9 @@
 
 .wr-30 {
   width: 30rem;
+}
+
+.app-bg {
+  background: linear-gradient(to bottom right, #49a7cc 0%, #ff0080 100%);
+  height: 60rem;
 }

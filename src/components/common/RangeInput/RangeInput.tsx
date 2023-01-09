@@ -8,7 +8,7 @@ interface RangeInputProps {
   min?: string;
   max?: string;
 }
-export default function RangeInput({
+export  function RangeInput({
   value,
   label,
   onChange,

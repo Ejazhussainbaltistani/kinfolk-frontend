@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 
-import { ReactComponent as IconEditCard } from "../../assets/icons/icon-edit-card.svg";
+import { ReactComponent as IconEditCard } from "./../../../assets/icons/icon-edit-card.svg";
 import "./DetailCards.css";
 
 interface DetailCardsProps {
@@ -9,7 +9,7 @@ interface DetailCardsProps {
 }
 export function DetailCards({ children, editCardModalId }: DetailCardsProps) {
   return (
-    <div className="card">
+    <div className="card text-left">
       <div className="card px-4 py-3">
         <div className="flex-box">
           <div className="card-body">

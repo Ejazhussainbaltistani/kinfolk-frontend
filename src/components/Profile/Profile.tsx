@@ -35,11 +35,11 @@ export function Profile() {
           <ExtraDetails />
         </div>
         <div className="flex-box">
-          <Interests />
+          <HappyMoment />
           <Languages />
         </div>
         <div className="flex-box">
-          <HappyMoment />
+          <Interests />
           <Learn />
         </div>
         <div className="flex-box">

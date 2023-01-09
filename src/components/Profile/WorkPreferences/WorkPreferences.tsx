@@ -3,9 +3,9 @@ import { ReactComponent as IconEditCard } from "./../../../assets/icons/icon-edi
 
 import "./WorkPreferences.css";
 
-import RangeInput from "../../common/RangeInput/RangeInput";
-import { DetailCards } from "../../DetailCards/DetailCards";
-import { TempModal } from "../../TempModal/TempModal";
+import { DetailCards } from "../../common/DetailCards/DetailCards";
+import {RangeInput} from "../../common/RangeInput/RangeInput";
+import { TempModal } from "../../common/TempModal/TempModal";
 
 export interface PreferenceProp {
   Question: string;

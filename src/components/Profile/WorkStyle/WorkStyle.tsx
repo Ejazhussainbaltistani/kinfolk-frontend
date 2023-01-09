@@ -1,13 +1,13 @@
 import { useState } from "react";
-import TextField from "../common/Textfield/TextField";
-import { DetailCards } from "../DetailCards/DetailCards";
-import { TempModal } from "../TempModal/TempModal";
-import { ReactComponent as IconEditCard } from "./../../assets/icons/icon-edit-card.svg";
+import { DetailCards } from "../../common/DetailCards/DetailCards";
+import { TempModal } from "../../common/TempModal/TempModal";
+import TextField from "../../common/Textfield/TextField";
+import { ReactComponent as IconEditCard } from "./../../../assets/icons/icon-edit-card.svg";
 
 export function WorkStyle() {
   const [workStyles, setWorkStyles] = useState([
     {
-      Question: "how old are you",
+      Question: "how old are you solutions...",
       answer: "kjlasf sdljkfljkas asdljkjlksdfljk asfjljklfsdjlk",
       icon: <IconEditCard />,
     },

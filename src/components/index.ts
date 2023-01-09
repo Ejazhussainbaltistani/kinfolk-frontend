@@ -1,6 +1,6 @@
+export * from "./common/DetailCards/DetailCards";
 export * from "./common/RangeInput/RangeInput";
 export * from "./common/Textfield/TextField";
-export * from "./DetailCards/DetailCards";
 export * from "./Profile/About/About";
 export * from "./Profile/ExtraDetails/ExtraDetails";
 export * from "./Profile/HappyMoment/HappyMoment";
@@ -9,4 +9,4 @@ export * from "./Profile/Interests/Interests";
 export * from "./Profile/Languages/Languages";
 export * from "./Profile/Learn/Learn";
 export * from "./Profile/Profile";
-export * from "./WorkStyle/WorkStyle";
+export * from "./Profile/WorkStyle/WorkStyle";
